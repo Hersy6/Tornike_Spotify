@@ -1,0 +1,161 @@
+/* General container styling */
+.login-container {
+    -fx-padding: 20;
+    -fx-background-color: #121212; /* Dark background */
+    -fx-spacing: 15; /* Increased spacing for better separation */
+    -fx-alignment: center;
+}
+
+/* Title label styling */
+.title-label {
+    -fx-font-size: 24px; /* Larger font size for emphasis */
+    -fx-text-fill: #1DB954; /* Spotify green */
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 10px 0; /* Add padding below the title */
+}
+
+/* Input label styling */
+.input-label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px; /* Slightly larger font for readability */
+    -fx-padding: 5px 0; /* Add padding above and below labels */
+}
+
+/* Input field styling */
+.input-field {
+    -fx-pref-width: 250px; /* Wider input fields for better usability */
+    -fx-padding: 8px; /* More padding for a comfortable input area */
+    -fx-background-radius: 5px;
+    -fx-background-color: #333; /* Dark gray background */
+    -fx-text-fill: white; /* White text for contrast */
+    -fx-font-size: 14px; /* Larger font size for readability */
+}
+
+.input-field:focused {
+    -fx-border-color: #1DB954; /* Green border when focused */
+    -fx-border-radius: 5px;
+    -fx-border-width: 2px;
+}
+
+/* Login button styling */
+.login-button {
+    -fx-background-color: #1DB954; /* Spotify green */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px; /* Larger padding for a more clickable area */
+    -fx-background-radius: 5px;
+    -fx-cursor: hand; /* Change cursor to hand on hover */
+}
+
+.login-button:hover {
+    -fx-background-color: #1ED760; /* Lighter green on hover */
+}
+
+/* Register button styling */
+.register-button {
+    -fx-background-color: #535353; /* Dark gray for secondary actions */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px; /* Consistent padding with login button */
+    -fx-background-radius: 5px;
+    -fx-cursor: hand; /* Change cursor to hand on hover */
+}
+
+.register-button:hover {
+    -fx-background-color: #666666; /* Lighter gray on hover */
+}
+
+/* Error label styling */
+.error-label {
+    -fx-text-fill: #FF4444; /* Red for errors */
+    -fx-font-size: 12px;
+    -fx-padding: 5px 0; /* Add padding above and below error messages */
+}
+
+/* Logout button styling */
+.logout-button {
+    -fx-background-color: #FF4444; /* Red for logout */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px; /* Consistent padding with other buttons */
+    -fx-background-radius: 5px;
+    -fx-cursor: hand; /* Change cursor to hand on hover */
+}
+
+.logout-button:hover {
+    -fx-background-color: #FF6666; /* Lighter red on hover */
+}
+
+/* Additional styles for player buttons (if needed) */
+.player-button {
+    -fx-background-color: #1DB954; /* Spotify green */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 20px; /* Rounded corners */
+    -fx-cursor: hand; /* Change cursor to hand on hover */
+}
+
+.player-button:hover {
+    -fx-background-color: #1ED760; /* Lighter green on hover */
+}
+
+/* Premium button styling */
+.premium-button {
+    -fx-background-color: #FFD700; /* Gold for premium */
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 20px; /* Rounded corners */
+    -fx-cursor: hand; /* Change cursor to hand on hover */
+}
+
+.premium-button:hover {
+    -fx-background-color: #FFDF00; /* Lighter gold on hover */
+}
+
+
+.premium-button {
+    -fx-background-color: #FFD700; /* Gold for premium */
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.premium-button:hover {
+    -fx-background-color: #FFDF00; /* Lighter gold on hover */
+}
+
+.premium-button:disabled {
+    -fx-opacity: 1.0; /* Keep the button visible but disabled */
+    -fx-background-color: #FFD700; /* Gold color remains */
+    -fx-text-fill: black;
+}
+
+.cancel-premium-button {
+    -fx-background-color: #FF4444; /* Red for cancel */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.cancel-premium-button:hover {
+    -fx-background-color: #FF6666; /* Lighter red on hover */
+}
+
+.cancel-premium-button:disabled {
+    -fx-opacity: 1.0; /* Keep the button visible but disabled */
+    -fx-background-color: #535353; /* Gray color when disabled */
+    -fx-text-fill: white;
+}

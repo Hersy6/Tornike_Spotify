@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.spotify.LoginController">
+    <Label text="Username:" />
+    <TextField fx:id="usernameField" />
+    <Label text="Password:" />
+    <PasswordField fx:id="passwordField" />
+    <Label fx:id="errorLabel" style="-fx-text-fill: red;" />
+    <HBox spacing="10">
+        <Button text="Login" onAction="#handleLogin" />
+        <Button text="Register" onAction="#handleRegister" />
+    </HBox>
+</VBox>
